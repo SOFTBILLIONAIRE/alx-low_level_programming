@@ -8,14 +8,16 @@
 */
 int main(void)
 {
-	char alp;
+	char qe;
 
-	for (alp = 'a'; alp = 'a' <= 'z' && (alp != 'q' && alp != 'e');  alp++)
+	qe = 'a';
+	while (qe != 'q' && qe != 'e' && qe <= 'a' <= 'z')
 	{
-	putchar(alp);
+		putchar(qe);
+		qe++;
 	}
 	{
 		putchar('\n');
 	}
-return (0);
+	return (0);
 }
