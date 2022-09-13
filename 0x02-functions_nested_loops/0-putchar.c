@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <0-putchar.h>
 /**
  * main - Entry point
  *
@@ -6,8 +7,6 @@
 */
 int main(void)
 {
-	char a;
-
 	a = '_';
 	{
 		putchar(a);
