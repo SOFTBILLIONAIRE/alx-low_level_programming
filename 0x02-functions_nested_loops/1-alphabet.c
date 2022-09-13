@@ -4,7 +4,7 @@
  *
  * Return: Allow success
 */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char alp;
 	
@@ -15,5 +15,4 @@ void print_alphabet(void);
 		alp++;
 	}
 		_putchar('\n');
-return (0);
 }
