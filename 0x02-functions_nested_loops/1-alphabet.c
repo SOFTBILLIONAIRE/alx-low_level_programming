@@ -6,14 +6,15 @@
 */
 int main(void)
 {
-	char b;
-
-	b = 'a';
-	while (b <= 'z')
+	char alp;
+	
+	alp = print_alphabet(a);
+	while (alp <= 'z')
 	{
-		putchar(b);
-		b++;
-		putchar('\n');
+		alp = 
+		_putchar(alp);
+		alp++;
+		_putchar('\n');
 	}
 return (0);
 }
