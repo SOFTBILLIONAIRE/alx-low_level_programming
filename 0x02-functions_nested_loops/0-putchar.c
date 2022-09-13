@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <0-putchar.h>
+#include <main.h>
 /**
  * main - Entry point
  *
@@ -7,6 +6,8 @@
 */
 int main(void)
 {
+	char a;
+
 	a = '_';
 	{
 		_putchar(a);
