@@ -9,38 +9,38 @@ int main(void)
 {
 	a = '_';
 	{
-		putchar(a);
+		_putchar(a);
 	}
 	a = 'p';
 	{
-		putchar(a);
+		_putchar(a);
 	}
 	a = 'u';
 	{
-		putchar(a);
+		_putchar(a);
 	}
 	a = 't';
 	{
-		putchar(a);
+		_putchar(a);
 	}
 	a = 'c';
 	{
-		putchar(a);
+		_putchar(a);
 	}
 	a = 'h';
 	{
-		putchar(a);
+		_putchar(a);
 	}
 	a =  'a';
 	{
-		putchar(a);
+		_putchar(a);
 	}
 	a = 'r';
 	{
-		putchar(a);
+		_putchar(a);
 	}
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 return (0);
 }
