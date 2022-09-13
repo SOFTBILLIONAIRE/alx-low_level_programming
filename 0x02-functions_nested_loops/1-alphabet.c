@@ -4,18 +4,16 @@
  *
  * Return: Allow success
 */
-int main(void)
+void print_alphabet(void);
 {
 	char alp;
 	
-	alp = print_alphabet(a);
+	alp = 'a';
 	while (alp <= 'z')
 	{ 
 		_putchar(alp);
 		alp++;
 	}
-	{
 		_putchar('\n');
-	}
 return (0);
 }
