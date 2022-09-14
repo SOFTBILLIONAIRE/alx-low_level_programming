@@ -11,11 +11,7 @@ int main(void)
 	
 	if (c >= 'a' && c <= 'z')
 	{
-		return(1);
+		_putchar(r);
 	}
-	else
-	{
-		return (0);
-	}
-	return (0);
+	
 }
