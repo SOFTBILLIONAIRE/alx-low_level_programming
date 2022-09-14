@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_alphabet - Entry point
- *
+ * print_alphabet - a function that prints the alphabet
+ * @void: any character type
  * Return: Allow success
 */
 void print_alphabet(void)
