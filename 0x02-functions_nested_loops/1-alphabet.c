@@ -4,11 +4,9 @@
  *
  * Return: Allow success
 */
+char alp;
 void print_alphabet(void)
 {
-	char alp;
-
-	print_alphabet(alp);
 	while (alp <= 'z')
 	{
 		_putchar(alp);
