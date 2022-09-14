@@ -4,11 +4,12 @@
  *
  * Return: Allow success
 */
-int main
+int main(void)
 {
-	int r = _islower(b);
+	int c;
+	int r = _islower(c);
 	
-	if (b >= 'a' && b <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return(1);
 	}
