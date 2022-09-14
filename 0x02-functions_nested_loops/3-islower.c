@@ -1,17 +1,17 @@
 #include "main.h"
 /**
- * _islower - Entry point
+ * _islower(int c) - Entry point
  *
- * Return: Allow success
+ * Return: 0
 */
-int main(void)
+int _islower(int c)
 {
-	int c;
-	int r = _islower(c);
-	
-	if (c >= 'a' && c <= 'z')
+
+	if (c >= 'a' && <= 'z')
 	{
-		_putchar(r+'0');
+		return (1);
 	}
-	return (0);
+	else
+return (0);
 }
+
