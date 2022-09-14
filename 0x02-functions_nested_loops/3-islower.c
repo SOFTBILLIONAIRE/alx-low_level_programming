@@ -1,13 +1,20 @@
 #include "main.h"
 /**
- *  _islower - Entry point
+ * _islower - Entry point
  *
  * Return: Allow success
 */
-int _islower(int c)
+int main
 {
-	if (c >= 97 && c <= 122)
-		return (1);
+	int r = _islower(b);
+	
+	if (b >= 'a' && b <= 'z')
+	{
+		return(1);
+	}
 	else
+	{
 		return (0);
+	}
+	return (0);
 }
