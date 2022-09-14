@@ -20,11 +20,11 @@ void jack_bauer(void)
 			_putchar(hr + '0');
 			_putchar(':');
 			_putchar(m / 10 + '0');
-			_putchar(mr + '10');
+			_putchar(mr + '0');
 			m++;
 			_putchar('\n');
 		}
-		h=++;
+		h++;
 		m = 0;
 	}
 }
