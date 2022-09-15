@@ -1,15 +1,14 @@
-nclude "main.h"
-
+#include "main.h"
 /**
- * * main - tests function that prints if integer is positive or negative
- * * Return: 0
- * */
-
-int main(void)
+ * positive_or_negative - A function that prints if integer is negative or pos.
+ *
+ * Return: Allow success
+*/
+void positive_or_negative(int i)
 {
 	        int i;
 
-		        i = 98;
+		        i = 0;
 			        positive_or_negative(i);
 
 				        return (0);
