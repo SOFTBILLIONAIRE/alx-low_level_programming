@@ -1,8 +1,8 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
- * Return: Allow success
+ * main - causes an infinte loop
+ * Return: 0
 */
 int main(void)
 {
