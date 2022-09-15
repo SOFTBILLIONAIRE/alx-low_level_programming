@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int mul - a function that multiplies twu numbers
+ * mul - a function that multiplies twu numbers
  * @a: defines the parameter list for the function
  * @b: defines the parameter list for the function
  * Return: Allow success
