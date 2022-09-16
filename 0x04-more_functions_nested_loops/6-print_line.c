@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print line - a function that draws a straight line in the terminal
+ * print_line - a function that draws a straight line in the terminal
  * @n: defines the value of the integer
  * Return: Allow success
 */
