@@ -10,10 +10,10 @@ void print_diagonal(int n)
 	if (n >= 0)
 	{
 		n = 0;
-		while (n <= 10)
+		while (n <= 100)
 		{
 			n = 0;
-			while (n <= 10)
+			while (n <= 100)
 			{
 				_putchar('\\');
 				n++;
