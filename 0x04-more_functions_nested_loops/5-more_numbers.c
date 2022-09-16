@@ -10,7 +10,7 @@ void more_numbers(void)
 	int result;
 
 	result = n * 10;
-	if (n >= '0' && n <= 4952)
+	if (n >= '0' && n <= '1''4')
 	{
 		_putchar(result);
 	}
