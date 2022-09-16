@@ -6,14 +6,10 @@
 */
 void print_line(int n)
 {
-	while (n <= 100)
+	while (n-- > 0)
 	{
-		if (n != 0 && n > 0)
-			{
-			_putchar('_');
-			}
+		_putchar('_');
 	}
-	_putchar('\\');
-	_putchar('n');
-return;
+	_putchar('\n');
 }
+
