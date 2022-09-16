@@ -11,7 +11,7 @@ void more_numbers(void)
 	
 	n = 0;
 	result = n * 10;
-	if (n >= '0' && n <= '1''4')
+	if (n >= '0' && n <= 4952)
 	{
 		_putchar(result);
 	}
