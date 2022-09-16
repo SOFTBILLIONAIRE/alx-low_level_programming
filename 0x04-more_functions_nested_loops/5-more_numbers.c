@@ -8,11 +8,13 @@ void more_numbers(void)
 {
 	int n;
 	int result;
-
+	
+	n = 0;
 	result = n * 10;
 	if (n >= '0' && n <= '1''4')
 	{
 		_putchar(result);
 	}
+	_putchar('\n');
 return;
 }
