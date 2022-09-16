@@ -7,14 +7,20 @@
 void more_numbers(void)
 {
 	int n;
-	int result;
 	
 	n = 0;
-	result = n * 10;
-	if (n >= '0' && n <= 4952)
+	while (n <= 9)
 	{
-		_putchar(result);
+		_putchar(n);
+		n++;
+	}
+	if (n > 9)
+	{
+		while (n <= 14)
+		{
+			_putchar(n % 10 + '0')
+				n++;
+		}
 	}
 	_putchar('\n');
-return;
 }
