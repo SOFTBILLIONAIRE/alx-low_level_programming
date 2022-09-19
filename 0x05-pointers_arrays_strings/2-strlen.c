@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _strlen - A function that print the length of a string
+ * _strlen - A function that print the length of a string
  * @s: define the function parameter
  * Return: Allow success
 */
@@ -14,6 +14,4 @@ int _strlen(char *s)
 		s++;
 	}
 return (count);
-}
-
-	
+}	
