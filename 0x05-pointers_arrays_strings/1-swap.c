@@ -7,7 +7,18 @@
 */
 void swap_int(int *a, int *b)
 {
-	*a = *b;
-	*b = *a;
+	int p, q;
+	
+	*a = p;
+	*b = q;
+	if (*a = p)
+	{
+		return(q)
+	}
+	else if (*b = q)
+	{
+		return(p)
+	}
+
 	return;
 }
