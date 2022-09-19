@@ -6,19 +6,18 @@
  * Return: Allo success
 */
 void swap_int(int *a, int *b)
-{
-	int p, q;
-	
+{	int p, q;
+
 	*a = p;
 	*b = q;
-	if (*a = p)
+	if (*a >= *b || *a <= *b)
 	{
-		return(q)
+		*a = q;
 	}
-	else if (*b = q)
-	{
-		return(p)
-	}
-
+	else if(*b >= *a || *b <= *a)
+		{
+		*b = p;
+		}
+		
 	return;
 }
