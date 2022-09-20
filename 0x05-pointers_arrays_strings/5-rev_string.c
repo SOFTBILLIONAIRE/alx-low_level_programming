@@ -4,7 +4,7 @@
  * @s: defines the parameter for the function
  * Return: Allow success
 */
-rev_string(char *s)
+void rev_string(char *s)
 {
 	int i, c, k;
 	char *a, aux;
