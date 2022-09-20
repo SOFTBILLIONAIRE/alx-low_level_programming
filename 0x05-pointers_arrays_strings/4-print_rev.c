@@ -6,17 +6,17 @@
 */
 void print_rev(char *s)
 {
-	int count = 0;
+	int i = 0;
 
 	while (*s != '\0')
 	{
+		i++;
 		s++;
-		count++;
 	}
-	while (count > 0)
+	while (i > 0)
 	{
-		s--;
 		_putchar(*s);
-		count--;
+		i--;
 	}
+	_putchar('\n');
 }
