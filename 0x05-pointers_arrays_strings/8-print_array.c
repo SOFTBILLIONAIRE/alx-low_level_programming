@@ -4,7 +4,7 @@
  * @a: defines the parameter for the function
  * @n: defines the parameter for the function
 */
-void print_array(int *a, int n);
+void print_array(int *a, int n)
 {
 	n = 0;
 	while (a[n] != '\0')
