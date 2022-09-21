@@ -19,5 +19,5 @@ void print_array(int *a, int n)
 			}
 		j++;
 	}
-	_putchar('\n');
+	printf('\n');
 }
