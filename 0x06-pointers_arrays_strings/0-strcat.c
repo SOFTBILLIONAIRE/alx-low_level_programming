@@ -7,7 +7,7 @@
 */
 char *_strcat(char *dest, char *src)
 {
-	char dest_index, src_index, i;
+	int dest_index, src_index, i;
 
 	for (dest_index = 0; dest[dest_index] != '\0';)
 	{
