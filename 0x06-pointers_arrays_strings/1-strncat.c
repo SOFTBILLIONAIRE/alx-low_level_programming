@@ -7,6 +7,16 @@
 */
 char *_strncat(char *dest, char *src, int n)
 {
-	char dest_index, src_index;
-	int n;
+	*tempdest = dest, *srcdest = src;
 
+	while(*tempdest)
+	{
+		*tempdest++;
+	}
+	while(*srcdest <= *(srcdest + n))
+	{
+		*tempdest = *srcdest;
+		*tempdest++;
+	}
+return (dest);
+}
