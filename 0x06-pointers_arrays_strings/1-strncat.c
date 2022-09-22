@@ -4,6 +4,7 @@
  * @dest: a parameter
  * @src: a parameter
  * @n: a parameter
+ * return: Allow successi
 */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -15,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 		dex_len++;
 	}
 	i = 0;
-	while (i <= n)
+	while (i < n)
 	{
 		dest[dex_len] = src[i];
 		dex_len++;
