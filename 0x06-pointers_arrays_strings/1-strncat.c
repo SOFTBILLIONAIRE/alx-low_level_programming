@@ -15,6 +15,13 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		dex_len++;
 	}
+	src_len = 0;
+	while (src[src_len] != 0)
+	{
+
+	}
+	if (src_len >= n)
+	{
 	i = 0;
 	while (i < n)
 	{
@@ -22,6 +29,16 @@ char *_strncat(char *dest, char *src, int n)
 		dex_len++;
 		i++;
 	}
-	dest[dex_len] = '\0';
+	}
+	else 
+	{
+		while (i < n)
+		{
+		dest[dex_len] = src[i];
+		dex_len++;
+		i++;
+		}
+		dest[dex_len] = '\0';
+	}
 return (dest);
 }
