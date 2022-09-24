@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strcpy - copies the string pointed to by src
- * @dest - first parameter
+ * @dest: first parameter
  * @src: second parameter
  * Return: Allow success
 */
