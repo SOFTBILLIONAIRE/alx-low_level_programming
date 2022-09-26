@@ -4,12 +4,13 @@
  * @s: first parameter
  * @b: second character
  * @n: third parameter
+ * Return: Allow success
 */
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i = 0;
 
-	while (i < n)
+	while (i < n && s[i] != '\0')
 	{
 		s[i] = b;
 		i++;
