@@ -19,10 +19,6 @@ unsigned int _strspn(char *s, char *accept)
 			c = len++;
 			break;
 		}
-		else if (s[i] == '\0')
-		{
-		return (len);
-		}
 		}
 	}
 	return (c);
