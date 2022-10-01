@@ -8,5 +8,6 @@
 int main(int argc, char *arg[v])
 {
 	printf("%d\n", argc);
+	(void)argc;
 return (0);
 }
