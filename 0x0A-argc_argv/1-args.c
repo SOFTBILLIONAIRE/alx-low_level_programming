@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 /**
  * main - A function
  * @argc: argument count
@@ -8,6 +8,5 @@
 int main(int argc, char *arg[v])
 {
 	printf("%d\n", argc);
-	(void)argc;
 return (0);
 }
