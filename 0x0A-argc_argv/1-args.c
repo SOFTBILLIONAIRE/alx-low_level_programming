@@ -5,7 +5,7 @@
  * @argv: argument vector
  * Return: Allow succes
 */
-int main(int argc, char *arg[v])
+int main(int argc, char *argv[])
 {
 	printf("%d\n", argc);
 return (0);
