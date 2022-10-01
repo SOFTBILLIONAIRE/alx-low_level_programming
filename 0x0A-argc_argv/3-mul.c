@@ -1,5 +1,5 @@
 #include "stdio.h"
-#include "stdlib.h"
+#include "stdlb.h"
 /**
  * main - a function
  * @argc: first parameter
@@ -11,8 +11,8 @@ int main(int argc, char *argv[])
 	int n;
 	if (argc == 3)
 	{
-		n = (atoi(argv[1]) * atoi(argv[2]));
-		printf("%d\n", n);
+	n = (atoi(argv[1]) * atoi(argv[2]));
+	printf("%d\n", n);
 	}
 	else
 	{
