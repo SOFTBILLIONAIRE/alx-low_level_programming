@@ -9,6 +9,7 @@
 int main(int argc, char *argv[])
 {
 	int n;
+
 	if (argc == 3)
 	{
 	n = (atoi(argv[1]) * atoi(argv[2]));
