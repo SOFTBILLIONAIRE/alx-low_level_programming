@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strdup - a function 
+ * _strdup - a function
  * @str: parameter for the function
  * Return: Allow success
-*/
+*/i
 char *_strdup(char *str)
 {
 	char *p;
@@ -15,7 +15,7 @@ char *_strdup(char *str)
 		count++;
 		i++;
 	}
-	p = malloc(i * sizeof(char));
+	p = malloc(count * sizeof(char));
 		if (str == NULL)
 		{
 			return ('\0');
