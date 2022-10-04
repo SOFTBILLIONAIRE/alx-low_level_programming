@@ -1,7 +1,7 @@
 #include "main.h"
 #include "stdlib.h"
 /**
- * *create_array - a function that create an array
+ * create_array - a function that create an array
  * @size: first parameter
  * @c: second parameter
  * Return: Allow success
