@@ -4,7 +4,7 @@
  * _strdup - a function
  * @str: parameter for the function
  * Return: Allow success
-*/i
+*/
 char *_strdup(char *str)
 {
 	char *p;
