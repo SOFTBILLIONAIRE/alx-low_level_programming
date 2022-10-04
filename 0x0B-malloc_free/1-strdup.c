@@ -10,7 +10,7 @@ char *_strdup(char *str)
 	char *p;
 	int i = 0, count = 0;
 
-	while (*(str + i) != '\0')
+	while (*(str + i))
 	{
 		count++;
 		i++;
@@ -24,7 +24,7 @@ char *_strdup(char *str)
 		{
 			return ('\0');
 		}
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; str[i]; i++)
 	{
 		p[i] = str[i];
 	}
