@@ -22,6 +22,7 @@ char *str_concat(char *s1, char *s2)
 		count2++;
 	}
 	p = malloc((count + count2 + 1) * sizeof(char));
+		i = 0;
 		while ( i <= count + count2)
 		{
 			if (i < count)
