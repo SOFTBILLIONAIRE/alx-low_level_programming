@@ -50,7 +50,6 @@ char *str_concat(char *s1, char *s2)
 				p[i] = s2[i];
 			}
 			p[count2] = '\0';
-			return (p);
 		}
 		if (s2 == NULL)
 		{
@@ -59,7 +58,6 @@ char *str_concat(char *s1, char *s2)
 				p[i] = s1[i];
 			}
 			p[count] = '\0';
-			return (p);
 		}
 		if (p == NULL)
 		{
