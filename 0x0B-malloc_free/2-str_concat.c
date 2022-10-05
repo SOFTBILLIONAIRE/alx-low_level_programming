@@ -27,7 +27,7 @@ char *str_concat(char *s1, char *s2)
 		}
 	if(count == 0 && count2 == 0)
 	{
-		return (" ");
+		return ('\0');
 	}
 		for (i = 0; s1[i]; i++)
 		{
