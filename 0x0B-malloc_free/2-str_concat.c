@@ -9,7 +9,7 @@
 char *str_concat(char *s1, char *s2)
 {
 	int i = 0, count = 0, count2 = 0;
-	int *p;
+	char *p;
 
 	for (i = 0; s1[i]; i++)
 	{
@@ -37,7 +37,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		p[i] = s2[i];
 	}
-	p[count + count2 - 1] = '\0';
+	p[i] = '\0';
 
 	return (s1);
 }
