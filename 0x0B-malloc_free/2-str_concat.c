@@ -23,26 +23,15 @@ char *str_concat(char *s1, char *s2)
 		count2++;
 	}
 	p = malloc((count + count2 + 1) * sizeof(char));
-		if (p == NULL)
-		{
-			return ('\0');
-		}
-	if(count == 0 && count2 == 0)
-	{
-		return ('\0');
-	}
 		for (i = 0; i < count; i++)
 		{
 			p[i] = s1[i];
 		}
-		j = count;
-		i = 0;
-	while (i < count2)
-	{
-		p[j] = s2[i];
-		j++;
-		i++;
-	}
-	p[count + count2 - 1] = '\0';
-	return (p);
+		for (i = 0; i < count2; i++)
+		{
+			p[count++] = s2[i];
+		}
+		p[count + count2 + 1] = '\0';
+		return (p);
 }
+
