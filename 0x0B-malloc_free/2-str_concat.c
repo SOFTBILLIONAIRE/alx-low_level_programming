@@ -8,7 +8,7 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-	int i, count, count2, j;
+	int i, count = 0, count2 = 0, j = 0;
 	char *p;
 
 	if (s1 == NULL)
@@ -19,12 +19,10 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-	count = 0;
 	for (i = 0; s1[i]; i++)
 	{
 		count++;
 	}
-	count2 = 0;
 	for (i = 0; s2[i]; i++)
 	{
 		count2++;
