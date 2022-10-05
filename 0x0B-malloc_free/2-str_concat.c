@@ -32,11 +32,11 @@ char *str_concat(char *s1, char *s2)
 			{
 				p[i] = s2[i];
 			}
-			i++;
 			if (i == count + count2)
 			{
 				p[i] = '\0';
 			}
+			i++;
 			return (p);
 		}
 		if (p == NULL)
