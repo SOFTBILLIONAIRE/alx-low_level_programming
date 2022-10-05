@@ -32,9 +32,12 @@ char *str_concat(char *s1, char *s2)
 		{
 			p[i] = s1[i];
 		}
-	for (i = 0; s2[i]; i++)
+		j = count;
+	while (i < count2))
 	{
-		p[count++] = s2[i];
+		p[j] = s2[i];
+		j++;
+		i++;
 	}
 	p[count + count2 - 1] = '\0';
 	return (p);
