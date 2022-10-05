@@ -45,19 +45,10 @@ char *str_concat(char *s1, char *s2)
 		}
 		if (s1 == NULL)
 		{
-			for (i = 0; i < count2; i++)
-			{
-				p[i] = s2[i];
-			}
-			p[count2] = '\0';
-		}
+			s1 = "";
 		if (s2 == NULL)
 		{
-			for (i = 0; i < count; i++)
-			{
-				p[i] = s1[i];
-			}
-			p[count] = '\0';
+			s2 = "";
 		}
 		if (p == NULL)
 		{
