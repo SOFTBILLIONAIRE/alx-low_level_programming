@@ -31,9 +31,9 @@ char *str_concat(char *s1, char *s2)
 			}
 			if (i >= count && i < (count + count2))
 			{
-				for (j = 0; s[j] != '\0'; j++)
+				for (j = 0; s2[j] != '\0'; j++)
 				{
-				p[i] = s2[j];
+				p[i++] = s2[j];
 				}
 			}
 			if (i == count + count2)
