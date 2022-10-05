@@ -31,7 +31,7 @@ char *str_concat(char *s1, char *s2)
 			}
 			if (i >= count && i < (count + count2))
 			{
-				for (j = 0; s2[j] != '\0'; j++)
+				for (j = 0; j < count2; j++)
 				{
 				p[i] = s2[j];
 				i++;
@@ -46,10 +46,6 @@ char *str_concat(char *s1, char *s2)
 		if (p == NULL)
 		{
 			return ('\0');
-		}
-		if (count == 0 && count2 == 0)
-		{
-			return (" ");
 		}
 return (p);
 }
