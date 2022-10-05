@@ -34,8 +34,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-		i = 0;
-		while (i <= count + count2)
+		for (i = 0; i <= count + count2; i++)
 		{
 			if (i < count)
 			{
@@ -52,7 +51,6 @@ char *str_concat(char *s1, char *s2)
 			{
 				p[i] = '\0';
 			}
-			i++;
 		}
 		return (p);
 }
