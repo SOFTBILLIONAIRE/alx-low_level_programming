@@ -10,7 +10,7 @@ char *str_concat(char *s1, char *s2)
 {
 	int i, count, count2, j;
 	char *p;
-	
+
 	if (s1 == NULL)
 	{
 		s1 = "";
@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 		i = 0;
-		while ( i <= count + count2)
+		while (i <= count + count2)
 		{
 			if (i < count)
 			{
