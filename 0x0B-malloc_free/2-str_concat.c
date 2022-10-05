@@ -8,7 +8,7 @@
 */
 char *str_concat(char *s1, char *s2)
 {
-	int i, count, count2;
+	int i, count, count2, j;
 	char *p;
 
 	count = 0;
@@ -31,7 +31,10 @@ char *str_concat(char *s1, char *s2)
 			}
 			if (i >= count && i < (count + count2))
 			{
-				p[i] = s2[i];
+				for (j = 0; s[j] != '\0'; j++)
+				{
+				p[i] = s2[j];
+				}
 			}
 			if (i == count + count2)
 			{
