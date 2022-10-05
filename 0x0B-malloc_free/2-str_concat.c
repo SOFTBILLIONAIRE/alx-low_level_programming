@@ -39,5 +39,5 @@ char *str_concat(char *s1, char *s2)
 	}
 	p[count + count2 - 1] = '\0';
 
-	return (s1);
+	return (p);
 }
