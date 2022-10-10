@@ -4,7 +4,7 @@
  * struct dog - a user define data type
  * Return: Allow success
 */
-struct dog 
+struct dog
 {
 	char *name;
 	float age;
