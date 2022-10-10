@@ -2,7 +2,9 @@
 #include <stdlib.h>
 /**
  * struct dog - a user define data type
- * Return: Allow success
+ * @name: first parameter
+ * @age: second parameter
+ * @owner: second parameter
 */
 struct dog
 {
