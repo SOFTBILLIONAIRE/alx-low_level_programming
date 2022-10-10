@@ -1,10 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
 /**
- * struct dog - a user define data type
+ * struct dog - a user defined data type
  * @name: first parameter
  * @age: second parameter
- * @owner: second parameter
+ * @owner: third parameter
 */
 struct dog
 {
