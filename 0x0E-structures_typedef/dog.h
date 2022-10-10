@@ -3,6 +3,7 @@
  * @name: first parameter
  * @age: second parameter
  * @owner: third parameter
+ * Description: A long description
 */
 struct dog
 {
