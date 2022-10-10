@@ -1,3 +1,5 @@
+#ifndef MAIN_H
+#define MAIN_H
 /**
  * struct dog - a user defined data type
  * @name: first parameter
@@ -11,3 +13,5 @@ struct dog
 	float age;
 	char *owner;
 };
+
+#endif
