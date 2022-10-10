@@ -2,7 +2,6 @@
 #include <stdlib.h>
 /**
  * struct dog - a user define data type
- *
  * Return: Allow success
 */
 struct dog 
@@ -11,4 +10,3 @@ struct dog
 	float age;
 	char *owner;
 };
-
