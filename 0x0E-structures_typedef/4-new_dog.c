@@ -45,13 +45,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 */
 	char *_strcpy(char *dest, char *src)
 	{
-	while (*src != '\0')
+	while (*(src + i) != '\0')
 	{
-		*dest = *src;
-		dest++;
-		src++;
+		*(dest + i)= *(src + i);
+		i++;
 	}
-	*src = '\0';
+	*(src + i) = '\0';
 	return (dest);
 	}
 	p->name = malloc(sizeof(char) * (_strlen(name) + 1));
