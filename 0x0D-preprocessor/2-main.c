@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main -
+ * main - prints the file name
  * Return: Allow success
 */
 int main(void)
