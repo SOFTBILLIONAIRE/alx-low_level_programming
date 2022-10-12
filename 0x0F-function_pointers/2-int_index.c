@@ -1,4 +1,5 @@
 #include "function_pointers.h"
+#include <stdlib.h>
 /**
  * int_index - a function that searches for an integer
  * @array: first parameter
@@ -11,7 +12,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	int i = 0;
 	int x;
 	
-	if (array == NULL || size == 0)
+	if (array == NULL || size <= 0)
 		return (-1);
 	while (i < size)
 	{
