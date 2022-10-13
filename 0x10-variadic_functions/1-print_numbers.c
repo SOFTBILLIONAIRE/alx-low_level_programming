@@ -3,12 +3,12 @@
 #include <stdarg.h>
 /**
  * print_numbers - a function that print numbers
- * @seperator: first parameter
+ * @separator: first parameter
  * @n: second parameter
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	int i = 0;
+	unsigned int i = 0;
 
 	va_list print;
 
