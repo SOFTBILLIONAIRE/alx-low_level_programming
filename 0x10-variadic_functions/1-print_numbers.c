@@ -16,7 +16,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-		_putchar(va_arg(print, int) + '0');
+		printf("%d", va_arg(print, int));
 		printf("%s", separator);
 	}
 	va_end(print);
