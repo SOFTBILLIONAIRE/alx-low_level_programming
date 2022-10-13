@@ -3,15 +3,16 @@
 #include <stdarg.h>
 /**
  * sum_them_all - A function that returns the sum of all parameters
- * n: number of values to be summed
+ * @n: number of values to be summed
  * Return: Allow success
 */
 int sum_them_all(const unsigned int n, ...)
 {
-	int result, i = 0;
-
 	va_list sum;
+
 	va_start(sum, n);
+
+	int result, i = 0;
 
 	for (i = 0; i < n; i++)
 	{
