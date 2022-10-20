@@ -13,7 +13,7 @@
 typedef struct list
 {
 	char *name;
-	size_t len;
+	unsigned len;
 	struct list *next;
 }list_t;
 
