@@ -9,17 +9,14 @@
 */
 size_t print_list(const list_t *h)
 {
-	size_t count, count1 = 0;
+	size_t count1;
 
-	while (h->name)
-	{
-		count++;
-	}
 	while(h->next != NULL)
 	{
 	printf("%s\n", h->name);
-	printf("%lu\n", h->count);
+	printf("%lu\n", h->len);
 	count1++;
+	h = h->next;
 	}
 return (count1);
 }
