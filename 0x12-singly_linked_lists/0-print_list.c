@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <stddef.h>
 /**
- * print_list - A function that prints all elements of list_t
- * @h: array that contains all the members.
+ * print_list - A function that prints
+ * @h: array that contains all the
  * Return: Allow success
 */
 size_t print_list(const list_t *h)
@@ -14,7 +14,7 @@ size_t print_list(const list_t *h)
 	while(h)
 	{
 		if (h->name == NULL)
-			printf("[0] (nil)");
+			printf("[0] (nil)\n");
 		else
 	printf("[%lu] %s\n", h->len, h->name);
 	count1++;
