@@ -5,8 +5,8 @@
 typedef struct list
 {
 	char *name;
-	int count;
-	char *next;
+	size_t count;
+	struct list *next;
 }list_t;
 
 size_t print_list(const list_t *h);
