@@ -2,6 +2,14 @@
 #define MAIN_H
 
 #include <stdlib.h>
+/**
+ * struct list - A new data type
+ * @name: first parameter
+ * @len: second parameter
+ * @next: third parameter
+ * Return: Allow success
+ * Description: singly linked node structure
+*/
 typedef struct list
 {
 	char *name;
