@@ -20,5 +20,6 @@ size_t print_list(const list_t *h)
 	count1++;
 	h = h->next;
 	}
+	_putchar('\n');
 return (count1);
 }
