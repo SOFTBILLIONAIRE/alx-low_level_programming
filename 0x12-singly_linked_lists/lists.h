@@ -10,7 +10,7 @@
  * Return: Allow success
  * Description: singly linked node structure
 */
-typedef struct list
+typedef struct list_s
 {
 	char *str;
 	unsigned len;
