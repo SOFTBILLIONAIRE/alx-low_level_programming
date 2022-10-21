@@ -4,7 +4,7 @@
 #include <stdlib.h>
 /**
  * struct list - A new data type
- * @name: first parameter
+ * @str: first parameter
  * @len: second parameter
  * @next: third parameter
  * Return: Allow success
