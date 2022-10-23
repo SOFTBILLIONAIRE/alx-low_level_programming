@@ -19,6 +19,6 @@ list_t *add_node(list_t **head, const char *str)
 	{
 		count++;
 	}
-	mew_node->len = count;
+	new_node->len = count;
 return (new_node);
 }
